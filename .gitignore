@@ -1,0 +1,53 @@
+# ==============================================================
+# ChessConnect - .gitignore
+# ==============================================================
+
+# --- Credentials (never commit) ---
+firmware/secrets.h
+
+# --- Arduino build artifacts ---
+build/
+*.hex
+*.elf
+*.bin
+
+# --- Operating System noise ---
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# --- Editor / IDE noise ---
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+\#*\#
+.\#*
+
+# --- Personal / local-only stuff ---
+NOTES.md
+TODO.md
+.notes/
+scratch/
